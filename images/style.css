@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('image3.JPG') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+/* .nav-bar{ */
+    /* margin-bottom: 450px                                    
+/* } */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+.zandy {
+    display: flex;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section#about {
+    background: #f9f9f9;
+    text-align: center;
+}
+.about{
+    margin-left: 300px;
+}
+section#about img {
+    max-width: 300px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0423d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services {
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px;
+    background-color: antiquewhite;
+
+    
+}
+.about {
+    display: flex;
+}
+.about-image{
+    margin-left: 50px;
+}
+
+#row1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px 0px 0px; 
+    margin-left: 350px;
+}
+.box1, .box2, .box3 {
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 180px;
+}
+.box2, .box3 {
+    margin-left: 30px;
+}
+.service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#service > h2 {
+    text-align: center;
+
+}
+
+section#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item  {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+section#testimonials blockquote {
+    max-width: 600px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section#blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer form {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer form input, footer form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
